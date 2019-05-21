@@ -19,8 +19,8 @@ int main() {
     int qtdColunas = 7;
     int qtdLinhas = 7;
     int i, j;
-    for (i = 0; i < 7; i++) {
-        for (j = 0; j < 7; j++) {
+    for (i = 0; i < qtdLinhas; i++) {
+        for (j = 0; j < qtdColunas; j++) {
             if (matriz[i][j] == palavra[0]) {
                 if (qtdColunas - j >= tam_palavra) {
                     int auxiliar = j;
